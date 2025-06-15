@@ -7,7 +7,7 @@ const SPREADSHEET_NAME = "문제 생성 결과 시트";
 function doGet() {
   return HtmlService.createTemplateFromFile('index')
       .evaluate()
-      .setTitle("AI 문제 생성기 (유형별 생성)")
+      .setTitle("AI 문제 생성기")
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
 
